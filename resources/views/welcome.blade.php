@@ -21,6 +21,7 @@
     <body class="bg-primary">
         <div class="container d-flex vh-100">
             <div class="row my-auto">
+                {{-- INI BARU --}}
                 @php
                     $image_list = [
                         'https://cdn.wallpapersafari.com/41/38/Mc7ELF.jpg',
@@ -29,6 +30,7 @@
                         'https://th.bing.com/th/id/OIP.Y7vDJJa9e-60GoO_BB1qIAHaFP?pid=ImgDet&w=200&h=141&c=7&dpr=1,5',
                     ];
                 @endphp
+                {{-- INI BARU --}}
                 @foreach (range(0,3) as $value)
                     <div class="col-6 col-md-4 mb-3">
                         <div class="card">
