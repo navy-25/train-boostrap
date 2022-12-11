@@ -22,6 +22,7 @@
         <div class="container d-flex vh-100">
             <div class="row my-auto">
                 {{-- INI BARU --}}
+                {{-- INI YANG BARU TAK TAMBAHKAN -> NAVY --}}
                 @php
                     $image_list = [
                         'https://cdn.wallpapersafari.com/41/38/Mc7ELF.jpg',
